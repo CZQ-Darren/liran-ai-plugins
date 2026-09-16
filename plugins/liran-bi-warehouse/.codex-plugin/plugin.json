@@ -21,6 +21,8 @@
       "帮我找与销售额相关的 BI 指标",
       "查看我能访问的数据库和表",
       "分析这个经营指标最近为什么变化"
-    ]
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
   }
 }

@@ -21,6 +21,8 @@
       "搜索相关制度和方案文档",
       "读取这份飞书知识库内容并总结",
       "找出与这个主题相关的知识节点"
-    ]
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
   }
 }

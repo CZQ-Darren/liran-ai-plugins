@@ -1,7 +1,7 @@
 {
   "name": "liran-ai-plugins",
   "interface": {
-    "displayName": "理然企业 AI 插件"
+    "displayName": "理然AI插件"
   },
   "plugins": [
     {
