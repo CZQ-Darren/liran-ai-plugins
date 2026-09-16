@@ -1,0 +1,26 @@
+{
+  "name": "liran-knowledge-base",
+  "version": "0.1.0",
+  "description": "检索和读取理然飞书知识库中的企业文档、知识空间和关联内容。",
+  "author": {
+    "name": "理然"
+  },
+  "repository": "https://github.com/CZQ-Darren/liran-ai-plugins/tree/main/plugins/liran-knowledge-base",
+  "keywords": ["理然", "飞书", "知识库", "文档", "企业知识", "MCP"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "理然知识库",
+    "shortDescription": "检索理然飞书知识库和企业文档",
+    "longDescription": "通过理然企业 MCP 网关发现知识空间、搜索知识目录、展开对象关系并读取飞书文档内容，适用于制度、方案、项目资料和企业内部知识问答。",
+    "developerName": "理然",
+    "category": "Productivity",
+    "capabilities": ["Read", "MCP"],
+    "defaultPrompt": [
+      "帮我查一下知识库里关于这个项目的资料",
+      "搜索相关制度和方案文档",
+      "读取这份飞书知识库内容并总结",
+      "找出与这个主题相关的知识节点"
+    ]
+  }
+}

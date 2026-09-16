@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "liran-bi-warehouse": {
+      "url": "https://mcp.liran-ai.com/mcp/data/"
+    }
+  }
+}

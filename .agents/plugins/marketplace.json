@@ -1,0 +1,32 @@
+{
+  "name": "liran-ai-plugins",
+  "interface": {
+    "displayName": "理然企业 AI 插件"
+  },
+  "plugins": [
+    {
+      "name": "liran-bi-warehouse",
+      "source": {
+        "source": "local",
+        "path": "./plugins/liran-bi-warehouse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    },
+    {
+      "name": "liran-knowledge-base",
+      "source": {
+        "source": "local",
+        "path": "./plugins/liran-knowledge-base"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

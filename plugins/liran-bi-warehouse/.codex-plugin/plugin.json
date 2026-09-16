@@ -1,0 +1,26 @@
+{
+  "name": "liran-bi-warehouse",
+  "version": "0.1.0",
+  "description": "访问理然企业 BI 数仓，查询指标、表结构和经权限治理的经营数据。",
+  "author": {
+    "name": "理然"
+  },
+  "repository": "https://github.com/CZQ-Darren/liran-ai-plugins/tree/main/plugins/liran-bi-warehouse",
+  "keywords": ["理然", "BI", "Doris", "数据仓库", "经营分析", "MCP"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "理然BI数仓",
+    "shortDescription": "查询理然 BI 数仓、指标和经营数据",
+    "longDescription": "通过理然企业 MCP 网关访问 BI 数仓，支持指标发现、指标详情、数据库与表结构查看，以及受统一权限与审计约束的只读数据查询。",
+    "developerName": "理然",
+    "category": "Data & Analytics",
+    "capabilities": ["Read", "MCP"],
+    "defaultPrompt": [
+      "查询最近三个月的销售趋势",
+      "帮我找与销售额相关的 BI 指标",
+      "查看我能访问的数据库和表",
+      "分析这个经营指标最近为什么变化"
+    ]
+  }
+}
